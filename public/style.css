@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(148, 61, 61);
+}
+
+ol {
+    overflow-y: scroll;
+    height: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #ffdcdc;
+    position: absolute;
+
+    user-select: none;
+    height: 100%;
+    margin: -8px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+li a.active {
+    background-color: rgb(165, 14, 14);
+    color: white;
+}
+
+li a:hover {
+    box-shadow: 10px 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    box-shadow: 10px 10px;
+}
+
+div:not(.active) {
+    display: none;
+}
+
+div .autocomplete {
+    display: contents;
+}
+
+div:not(.autocomplete) {
+    width: 85%;
+    height: 98%;
+    background-color: rgb(44, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    color: wheat;
+    transition-duration: 0.4s;
+    overflow-y: auto;
+}
+
+.deeznutsclass {
+    display: block !important;
+    float: right;
+}
+
+
+.autocomplete-items {
+    /* position: absolute; */
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    display: contents !important;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    /* top: 100%; */
+    /* left: 0; */
+    /* right: 0; */
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    display: contents !important;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+    display: contents !important;
+}
+
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    display: contents !important;
+    color: #ffffff;
+}
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: contents !important;
+    display: inline-block;
+}
+
+button,
+input[type=submit] {
+    background-color: rgb(165, 14, 14);
+    color: white;
+    /* border: solid 3px black; */
+    border: none;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+button:hover,
+input[type=submit]:hover {
+    box-shadow: 10px 10px;
+    background-color: #555;
+}
+
+input {
+    width: 100%;
+    margin: 6px 0px;
+}
