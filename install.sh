@@ -1,7 +1,4 @@
-npm install express
-npm install eris
-npm install open
-npm install body-parser
-npm install cors
+npm init -y
+npm install express eris open body-parser cors
 echo Installed All Packages
 read -p "Press enter to continue"
