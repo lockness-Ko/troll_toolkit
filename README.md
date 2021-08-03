@@ -24,6 +24,7 @@ I DO NOT CONDONE ANY USE OF THIS TOOLKIT AGAINST THE [DISCORD TOS](https://disco
  
 Basic usage:
  - First you need to setup the bots. The best thing to do is add tokens in config.troll
+   - REMEMBER: Change the name of config.troll.template to config.troll so that it actually works :)
  - After you are in the web interface, go to the Bots tab
  - Click Add Bots (not the one with the token input)
  - Now, go to the server tab and add the Guild ID into the input and set the server
