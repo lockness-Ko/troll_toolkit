@@ -21,7 +21,7 @@ Steps
 
 # How to use it?
 I DO NOT CONDONE ANY USE OF THIS TOOLKIT AGAINST THE [DISCORD TOS](https://discord.com/terms)
- 
+
 Basic usage:
  - First you need to setup the bots. The best thing to do is add tokens in config.troll
  - After you are in the web interface, go to the Bots tab
